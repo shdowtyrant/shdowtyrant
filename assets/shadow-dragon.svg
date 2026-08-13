@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="Shadow Tyrant animated Shadow Dragon profile interface"><defs><linearGradient id="l1_bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#02030a" /><stop offset=".45" stop-color="#050b16" /><stop offset="1" stop-color="#010207" /></linearGradient>
+<radialGradient id="l1_a" cx="50%" cy="48%" r="65%"><stop stop-color="#12324a" stop-opacity=".42" /><stop offset=".45" stop-color="#071523" stop-opacity=".18" /><stop offset="1" stop-color="#000" stop-opacity="0" /></radialGradient>
+<radialGradient id="l1_v" cx="50%" cy="50%" r="70%"><stop offset="55%" stop-color="#000" stop-opacity="0" /><stop offset="1" stop-color="#000" stop-opacity=".78" /></radialGradient>
+<pattern id="l1_g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1a4159" stroke-width="1" opacity=".20" /></pattern>
+<filter id="l1_b"><feGaussianBlur stdDeviation="28" /></filter>
+<radialGradient id="l2_auraCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#36d9ff" stop-opacity=".20" />
+      <stop offset="38%" stop-color="#315cff" stop-opacity=".10" />
+      <stop offset="72%" stop-color="#101a52" stop-opacity=".05" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="l2_shadowCloud">
+      <stop offset="0%" stop-color="#050914" stop-opacity=".85" />
+      <stop offset="60%" stop-color="#071426" stop-opacity=".42" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="l2_blur20">
+      <feGaussianBlur stdDeviation="20" />
+    </filter>
+
+    <filter id="l2_blur8">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+  <linearGradient id="l3_dragon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02050b" />
+      <stop offset="55%" stop-color="#071321" />
+      <stop offset="100%" stop-color="#010207" />
+    </linearGradient>
+
+    <linearGradient id="l3_edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#1d6684" stop-opacity=".45" />
+      <stop offset=".5" stop-color="#36d9ff" stop-opacity=".12" />
+      <stop offset="1" stop-color="#172f55" stop-opacity=".38" />
+    </linearGradient>
+
+    <filter id="l3_dragonGlow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  <linearGradient id="l4_wing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02040a" />
+      <stop offset="55%" stop-color="#071827" />
+      <stop offset="100%" stop-color="#010207" />
+    </linearGradient>
+
+    <linearGradient id="l4_wingEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#36d9ff" stop-opacity=".42" />
+      <stop offset=".5" stop-color="#315cff" stop-opacity=".12" />
+      <stop offset="1" stop-color="#36d9ff" stop-opacity=".34" />
+    </linearGradient>
+
+    <filter id="l4_wingGlow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  <linearGradient id="l5_detailMetal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02050b" />
+      <stop offset="55%" stop-color="#0a1825" />
+      <stop offset="100%" stop-color="#020307" />
+    </linearGradient>
+
+    <linearGradient id="l5_edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#36d9ff" stop-opacity=".45" />
+      <stop offset=".5" stop-color="#7c8cff" stop-opacity=".16" />
+      <stop offset="1" stop-color="#36d9ff" stop-opacity=".38" />
+    </linearGradient>
+
+    <filter id="l5_detailGlow">
+      <feGaussianBlur stdDeviation="2.5" result="b" />
+      <feMerge>
+        <feMergeNode in="b" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  <radialGradient id="l6_eyeGlow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#8ff0ff" />
+      <stop offset="62%" stop-color="#36d9ff" stop-opacity=".75" />
+      <stop offset="100%" stop-color="#36d9ff" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="l6_coreGlow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#dffaff" stop-opacity=".95" />
+      <stop offset="22%" stop-color="#36d9ff" stop-opacity=".75" />
+      <stop offset="55%" stop-color="#315cff" stop-opacity=".32" />
+      <stop offset="100%" stop-color="#315cff" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="l6_glow">
+      <feGaussianBlur stdDeviation="4" result="b" />
+      <feMerge>
+        <feMergeNode in="b" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="l6_softGlow">
+      <feGaussianBlur stdDeviation="11" />
+    </filter>
+  <linearGradient id="l7_title" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#dffaff" />
+      <stop offset=".45" stop-color="#7cecff" />
+      <stop offset="1" stop-color="#a9b7ff" />
+    </linearGradient>
+
+    <linearGradient id="l7_accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#36d9ff" />
+      <stop offset="1" stop-color="#7c8cff" />
+    </linearGradient>
+
+    <filter id="l7_glow">
+      <feGaussianBlur stdDeviation="3" result="b" />
+      <feMerge>
+        <feMergeNode in="b" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs><g id="layer-1"><rect width="1200" height="600" fill="url(#l1_bg)" />
+<rect width="1200" height="600" fill="url(#l1_a)" />
+<ellipse cx="600" cy="300" rx="300" ry="180" fill="#0b2538" opacity=".16" filter="url(#l1_b)"><animate attributeName="opacity" values=".10;.20;.10" dur="7s" repeatCount="indefinite" /></ellipse>
+<rect width="1200" height="600" fill="url(#l1_g)" />
+<g fill="#72dfff">
+<circle cx="112" cy="96" r="1.3"><animate attributeName="opacity" values=".15;.8;.15" dur="3.2s" repeatCount="indefinite" /></circle>
+<circle cx="218" cy="168" r="1"><animate attributeName="opacity" values=".7;.15;.7" dur="4.6s" repeatCount="indefinite" /></circle>
+<circle cx="356" cy="82" r="1.4"><animate attributeName="opacity" values=".1;.75;.1" dur="5s" repeatCount="indefinite" /></circle>
+<circle cx="492" cy="145" r=".9"><animate attributeName="opacity" values=".8;.2;.8" dur="3.8s" repeatCount="indefinite" /></circle>
+<circle cx="704" cy="92" r="1.2"><animate attributeName="opacity" values=".15;.85;.15" dur="4.2s" repeatCount="indefinite" /></circle>
+<circle cx="836" cy="155" r="1"><animate attributeName="opacity" values=".75;.1;.75" dur="5.4s" repeatCount="indefinite" /></circle>
+<circle cx="1018" cy="108" r="1.4"><animate attributeName="opacity" values=".15;.8;.15" dur="3.7s" repeatCount="indefinite" /></circle>
+<circle cx="1090" cy="245" r=".9"><animate attributeName="opacity" values=".8;.15;.8" dur="4.9s" repeatCount="indefinite" /></circle>
+<circle cx="138" cy="390" r="1"><animate attributeName="opacity" values=".15;.8;.15" dur="4.1s" repeatCount="indefinite" /></circle>
+<circle cx="282" cy="500" r="1.3"><animate attributeName="opacity" values=".7;.1;.7" dur="5.2s" repeatCount="indefinite" /></circle>
+<circle cx="934" cy="450" r="1.2"><animate attributeName="opacity" values=".1;.75;.1" dur="3.5s" repeatCount="indefinite" /></circle>
+<circle cx="1068" cy="520" r="1"><animate attributeName="opacity" values=".75;.15;.75" dur="4.4s" repeatCount="indefinite" /></circle>
+</g>
+<rect x="0" y="-2" width="1200" height="2" fill="#36d9ff" opacity=".08"><animate attributeName="y" from="-2" to="602" dur="9s" repeatCount="indefinite" /></rect>
+<rect width="1200" height="600" fill="url(#l1_v)" />
+<path d="M30 72V30H72M1128 30H1170V72M30 528V570H72M1128 570H1170V528" fill="none" stroke="#36d9ff" stroke-width="1.2" opacity=".42" />
+</g><g id="layer-2"><ellipse cx="600" cy="310" rx="310" ry="190" fill="url(#l2_auraCore)" filter="url(#l2_blur20)">
+    <animate attributeName="opacity" values=".35;.75;.35" dur="6s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="scale" values="1 1;1.08 1.05;1 1" dur="6s" repeatCount="indefinite" />
+  </ellipse>
+
+  
+  <ellipse cx="330" cy="330" rx="230" ry="125" fill="url(#l2_shadowCloud)" filter="url(#l2_blur20)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;35 -12;0 0" dur="10s" repeatCount="indefinite" />
+  </ellipse>
+
+  
+  <ellipse cx="870" cy="320" rx="230" ry="125" fill="url(#l2_shadowCloud)" filter="url(#l2_blur20)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-35 14;0 0" dur="11s" repeatCount="indefinite" />
+  </ellipse>
+
+  
+  <g fill="none" stroke-linecap="round">
+
+    <path d="M170 385              C280 315 335 420 440 350              C520 296 555 370 600 330" stroke="#163b58" stroke-width="3" opacity=".22" filter="url(#l2_blur8)">
+      <animate attributeName="stroke-opacity" values=".08;.35;.08" dur="8s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="translate" values="0 0;18 -8;0 0" dur="8s" repeatCount="indefinite" />
+    </path>
+
+    <path d="M1030 390              C920 315 865 420 760 350              C680 296 645 370 600 330" stroke="#243d76" stroke-width="3" opacity=".20" filter="url(#l2_blur8)">
+      <animate attributeName="stroke-opacity" values=".08;.32;.08" dur="9s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="translate" values="0 0;-18 8;0 0" dur="9s" repeatCount="indefinite" />
+    </path>
+
+  </g>
+
+  
+  <g fill="#36d9ff">
+
+    <circle cx="290" cy="290" r="2" opacity=".18">
+      <animate attributeName="cy" values="290;260;290" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values=".05;.45;.05" dur="5s" repeatCount="indefinite" />
+    </circle>
+
+    <circle cx="390" cy="405" r="1.5" opacity=".2">
+      <animate attributeName="cy" values="405;370;405" dur="6s" repeatCount="indefinite" />
+    </circle>
+
+    <circle cx="520" cy="250" r="1.5" opacity=".18">
+      <animate attributeName="cy" values="250;220;250" dur="4.5s" repeatCount="indefinite" />
+    </circle>
+
+    <circle cx="680" cy="265" r="1.5" opacity=".18">
+      <animate attributeName="cy" values="265;230;265" dur="5.5s" repeatCount="indefinite" />
+    </circle>
+
+    <circle cx="810" cy="400" r="2" opacity=".18">
+      <animate attributeName="cy" values="400;365;400" dur="6.5s" repeatCount="indefinite" />
+    </circle>
+
+    <circle cx="910" cy="290" r="1.5" opacity=".18">
+      <animate attributeName="cy" values="290;255;290" dur="5s" repeatCount="indefinite" />
+    </circle>
+
+  </g>
+
+  
+  <circle cx="600" cy="315" r="62" fill="none" stroke="#36d9ff" stroke-width="1" opacity=".10">
+    <animate attributeName="r" values="45;95;45" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values=".02;.18;.02" dur="7s" repeatCount="indefinite" />
+  </circle>
+
+</g><g id="layer-3"><g id="l3_dragon-silhouette">
+
+    
+    <path d="       M 600 195        C 575 178, 548 174, 525 186       C 501 198, 489 219, 493 244        C 496 264, 510 280, 529 291        C 505 303, 477 314, 447 326       C 414 339, 382 351, 352 372        C 328 389, 307 411, 300 435       C 324 426, 350 424, 377 429        C 411 435, 442 451, 472 466        C 507 484, 548 493, 590 489        C 625 486, 657 475, 684 458        C 716 438, 745 421, 778 413        C 815 404, 851 408, 886 421        C 860 394, 828 372, 794 354        C 757 334, 718 319, 678 307        C 696 294, 708 275, 709 255        C 710 229, 697 207, 675 195        C 653 183, 626 181, 600 195        Z" fill="url(#l3_dragon)" stroke="url(#l3_edge)" stroke-width="2" stroke-linejoin="round" />
+
+    
+    <path d="       M 530 285       C 552 306, 570 327, 578 352       C 586 377, 583 406, 573 432       C 565 453, 568 470, 590 489       C 548 493, 507 484, 472 466       C 497 439, 514 408, 520 375       C 525 344, 519 313, 530 285 Z" fill="#030811" opacity=".94" />
+
+    
+    <path d="       M 520 300       C 540 321, 555 345, 560 371       C 566 402, 555 434, 537 461       C 515 455, 494 445, 472 432       C 491 406, 501 378, 503 349       C 505 329, 510 311, 520 300 Z" fill="#091827" opacity=".72" />
+
+    
+    <path d="       M 675 440       C 742 419, 804 412, 867 431       C 908 443, 946 465, 984 482       C 949 478, 917 480, 889 491       C 852 505, 813 520, 772 517       C 729 514, 690 493, 662 468 Z" fill="#02050b" stroke="#16445e" stroke-width="1.5" opacity=".96" />
+
+    
+    <path d="M 974 481            C 1004 486, 1027 480, 1048 465            C 1035 491, 1014 508, 982 512            C 967 507, 956 498, 946 491 Z" fill="#02040a" stroke="#1a5069" stroke-width="1.2" />
+
+    
+    <path d="       M 505 266       C 526 275, 551 277, 576 271       C 594 267, 608 259, 619 247       C 610 276, 591 296, 566 304       C 542 311, 518 300, 505 282 Z" fill="#010207" />
+
+    
+    <path d="       M 574 344       C 603 330, 635 329, 666 341       C 692 351, 714 371, 730 394       C 699 390, 670 396, 646 411       C 625 424, 607 442, 590 463       C 585 431, 588 397, 574 344 Z" fill="#050c16" opacity=".92" />
+
+    
+    <path d="       M 528 204       C 506 217, 500 240, 507 259       M 529 298       C 500 315, 461 331, 421 348       M 783 355       C 826 368, 862 389, 887 418" fill="none" stroke="#36d9ff" stroke-width="1.5" opacity=".22" filter="url(#l3_dragonGlow)" />
+
+    
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="5.5s" repeatCount="indefinite" />
+
+  </g>
+
+</g><g id="layer-4"><g id="l4_dragon-wings">
+
+    
+    <g id="l4_left-wing">
+      <path d="         M 555 326         C 510 292, 462 253, 410 210         C 350 160, 285 122, 207 96          C 226 130, 248 160, 271 184         C 230 168, 185 155, 139 151          C 171 180, 208 207, 248 230         C 200 224, 154 226, 108 238          C 157 260, 209 273, 263 278         C 217 292, 176 312, 137 339          C 192 342, 245 333, 296 316         C 346 300, 395 296, 441 307          C 478 316, 515 333, 555 355         Z" fill="url(#l4_wing)" stroke="url(#l4_wingEdge)" stroke-width="2" stroke-linejoin="round" opacity=".96">
+
+        <animateTransform attributeName="transform" type="rotate" values="0 555 326;-1.5 555 326;0 555 326" dur="6s" repeatCount="indefinite" />
+      </path>
+
+      
+      <g fill="none" stroke="#2c7896" stroke-width="1.3" opacity=".30">
+
+        <path d="M 535 330 C 450 290, 360 220, 207 96" />
+        <path d="M 525 332 C 440 304, 350 260, 139 151" />
+        <path d="M 515 337 C 425 321, 350 294, 108 238" />
+        <path d="M 508 343 C 420 343, 350 336, 137 339" />
+
+      </g>
+
+      
+      <path d="M 207 96            C 285 122, 350 160, 410 210            C 462 253, 510 292, 555 326" fill="none" stroke="#36d9ff" stroke-width="1.5" opacity=".24" filter="url(#l4_wingGlow)" />
+    </g>
+
+    
+    <g id="l4_right-wing">
+      <path d="         M 645 326         C 690 292, 738 253, 790 210         C 850 160, 915 122, 993 96          C 974 130, 952 160, 929 184         C 970 168, 1015 155, 1061 151          C 1029 180, 992 207, 952 230         C 1000 224, 1046 226, 1092 238          C 1043 260, 991 273, 937 278         C 983 292, 1024 312, 1063 339          C 1008 342, 955 333, 904 316         C 854 300, 805 296, 759 307          C 722 316, 685 333, 645 355         Z" fill="url(#l4_wing)" stroke="url(#l4_wingEdge)" stroke-width="2" stroke-linejoin="round" opacity=".96">
+
+        <animateTransform attributeName="transform" type="rotate" values="0 645 326;1.5 645 326;0 645 326" dur="6s" repeatCount="indefinite" />
+      </path>
+
+      
+      <g fill="none" stroke="#2c7896" stroke-width="1.3" opacity=".30">
+
+        <path d="M 665 330 C 750 290, 840 220, 993 96" />
+        <path d="M 675 332 C 760 304, 850 260, 1061 151" />
+        <path d="M 685 337 C 775 321, 850 294, 1092 238" />
+        <path d="M 692 343 C 780 343, 850 336, 1063 339" />
+
+      </g>
+
+      
+      <path d="M 993 96            C 915 122, 850 160, 790 210            C 738 253, 690 292, 645 326" fill="none" stroke="#36d9ff" stroke-width="1.5" opacity=".24" filter="url(#l4_wingGlow)" />
+    </g>
+
+    
+    <ellipse cx="600" cy="342" rx="92" ry="38" fill="#02050b" opacity=".70">
+      <animate attributeName="opacity" values=".55;.78;.55" dur="5s" repeatCount="indefinite" />
+    </ellipse>
+
+  </g>
+
+</g><g id="layer-5"><g id="l5_dragon-details">
+
+    
+    <path d="       M 495 238       C 487 220, 495 202, 512 190       C 528 179, 549 178, 568 186       C 585 192, 599 203, 609 218       C 594 210, 577 209, 562 215       C 548 221, 538 233, 533 247       C 522 251, 507 248, 495 238 Z" fill="url(#l5_detailMetal)" stroke="url(#l5_edge)" stroke-width="1.6" />
+
+    
+    <g id="l5_horns" fill="url(#l5_detailMetal)" stroke="#2d708a" stroke-width="1.5">
+
+      <path d="         M 520 200         C 502 175, 494 145, 501 113         C 514 138, 531 156, 545 174         L 548 195 Z" />
+
+      <path d="         M 548 187         C 541 157, 548 125, 565 96         C 570 126, 580 151, 589 177         L 576 194 Z" />
+
+      <path d="         M 505 190         C 486 174, 469 155, 457 132         C 479 143, 499 150, 516 166 Z" />
+
+    </g>
+
+    
+    <g fill="none" stroke="#36d9ff" stroke-width="1" opacity=".28">
+      <path d="M 503 123 C 507 147, 518 164, 531 181" />
+      <path d="M 565 106 C 562 134, 568 156, 576 177" />
+      <path d="M 462 137 C 480 148, 493 156, 506 169" />
+    </g>
+
+    
+    <g fill="#071421" stroke="#2b6178" stroke-width="1">
+
+      <path d="         M 503 230         C 516 217, 531 214, 545 218         C 534 228, 529 239, 528 250         C 516 248, 507 242, 503 230 Z" />
+
+      <path d="         M 541 218         C 555 210, 571 211, 584 219         C 574 228, 568 239, 567 251         C 554 244, 546 233, 541 218 Z" />
+
+    </g>
+
+    
+    <path d="       M 508 263       C 526 274, 548 277, 570 271       C 555 289, 535 296, 518 288       C 511 282, 507 273, 508 263 Z" fill="#02050a" stroke="#285d73" stroke-width="1.3" />
+
+    <g fill="#b9f5ff" opacity=".72">
+      <path d="M 525 279 L 529 289 L 533 278 Z" />
+      <path d="M 543 280 L 547 290 L 551 276 Z" />
+      <path d="M 558 276 L 562 286 L 566 272 Z" />
+    </g>
+
+    
+    <g id="l5_claws" fill="#03070d" stroke="#36d9ff" stroke-width="1.2" opacity=".9">
+
+      
+      <path d="         M 493 365         C 476 378, 461 396, 452 417         C 462 411, 471 408, 480 409         C 472 421, 469 430, 471 440         C 482 425, 494 414, 506 407         C 501 422, 502 433, 507 442         C 519 421, 523 401, 520 382 Z" />
+
+      
+      <path d="         M 690 366         C 707 379, 722 397, 731 418         C 721 412, 712 409, 703 410         C 711 422, 714 431, 712 441         C 701 426, 689 415, 677 408         C 682 423, 681 434, 676 443         C 664 422, 660 402, 663 383 Z" />
+
+    </g>
+
+    
+    <g id="l5_tail-spines" fill="#071522" stroke="#2d718b" stroke-width="1.2">
+
+      <path d="M 755 430 L 768 401 L 780 429 Z" />
+      <path d="M 790 424 L 805 397 L 816 428 Z" />
+      <path d="M 827 423 L 844 401 L 852 433 Z" />
+      <path d="M 865 430 L 883 412 L 888 443 Z" />
+      <path d="M 902 442 L 921 430 L 918 458 Z" />
+
+    </g>
+
+    
+    <g id="l5_scales" fill="none" stroke="#24566d" stroke-width="1" opacity=".34">
+
+      <path d="M 575 350 Q 586 361 597 350 Q 608 361 619 350 Q 630 361 641 350" />
+      <path d="M 570 368 Q 581 379 592 368 Q 603 379 614 368 Q 625 379 636 368 Q 647 379 658 368" />
+      <path d="M 567 387 Q 578 398 589 387 Q 600 398 611 387 Q 622 398 633 387 Q 644 398 655 387" />
+      <path d="M 566 406 Q 577 417 588 406 Q 599 417 610 406 Q 621 417 632 406 Q 643 417 654 406" />
+
+    </g>
+
+    
+    <g fill="url(#l5_detailMetal)" stroke="#285d73" stroke-width="1.2">
+      <path d="         M 573 343         C 593 326, 620 322, 646 332         L 671 356         L 648 370         C 624 360, 600 361, 577 374 Z" />
+
+      <path d="         M 626 341         L 650 327         L 678 340         L 663 356 Z" />
+    </g>
+
+    
+    <path d="       M 503 224       C 525 202, 553 197, 579 211       M 580 351       C 608 338, 637 338, 663 352" fill="none" stroke="#36d9ff" stroke-width="1.2" opacity=".22" filter="url(#l5_detailGlow)">
+      <animate attributeName="opacity" values=".08;.34;.08" dur="5s" repeatCount="indefinite" />
+    </path>
+
+  </g>
+
+</g><g id="layer-6"><g id="l6_dragon-eyes-core">
+
+    
+
+    <ellipse cx="527" cy="237" rx="32" ry="20" fill="url(#l6_eyeGlow)" opacity=".28" filter="url(#l6_softGlow)">
+      <animate attributeName="opacity" values=".18;.55;.18" dur="3.8s" repeatCount="indefinite" />
+    </ellipse>
+
+    <ellipse cx="558" cy="237" rx="32" ry="20" fill="url(#l6_eyeGlow)" opacity=".28" filter="url(#l6_softGlow)">
+      <animate attributeName="opacity" values=".18;.55;.18" dur="3.8s" begin=".4s" repeatCount="indefinite" />
+    </ellipse>
+
+    
+
+    <path d="       M 510 236       Q 526 224 542 236       Q 526 247 510 236 Z" fill="#8ff0ff" stroke="#36d9ff" stroke-width="1" filter="url(#l6_glow)">
+      <animate attributeName="opacity" values="1;1;1;.12;1;1" dur="5.5s" repeatCount="indefinite" />
+    </path>
+
+    <path d="       M 544 236       Q 560 224 576 236       Q 560 247 544 236 Z" fill="#8ff0ff" stroke="#36d9ff" stroke-width="1" filter="url(#l6_glow)">
+      <animate attributeName="opacity" values="1;1;1;.12;1;1" dur="5.5s" begin=".12s" repeatCount="indefinite" />
+    </path>
+
+    
+    <path d="M 526 227 L 526 244" stroke="#02050b" stroke-width="3" stroke-linecap="round" />
+
+    <path d="M 560 227 L 560 244" stroke="#02050b" stroke-width="3" stroke-linecap="round" />
+
+    
+
+    <path d="M 507 238 H 579" stroke="#dffaff" stroke-width="1" opacity=".25">
+      <animate attributeName="opacity" values=".05;.55;.05" dur="2.8s" repeatCount="indefinite" />
+    </path>
+
+    
+
+    <path d="       M 518 270       Q 544 283 568 270" fill="none" stroke="#36d9ff" stroke-width="2" stroke-linecap="round" opacity=".42" filter="url(#l6_glow)">
+      <animate attributeName="opacity" values=".18;.55;.18" dur="4.5s" repeatCount="indefinite" />
+    </path>
+
+    
+
+    <circle cx="600" cy="405" r="76" fill="url(#l6_coreGlow)" opacity=".24" filter="url(#l6_softGlow)">
+      <animate attributeName="r" values="62;88;62" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values=".16;.42;.16" dur="5s" repeatCount="indefinite" />
+    </circle>
+
+    
+    <g fill="none" stroke="#36d9ff" filter="url(#l6_glow)">
+      <circle cx="600" cy="405" r="45" stroke-width="1" opacity=".42">
+        <animate attributeName="r" values="38;54;38" dur="5s" repeatCount="indefinite" />
+      </circle>
+
+      <circle cx="600" cy="405" r="29" stroke-width="1" opacity=".30" stroke-dasharray="4 7">
+        <animateTransform attributeName="transform" type="rotate" from="0 600 405" to="360 600 405" dur="12s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    
+    <path d="       M 600 373       L 620 405       L 600 437       L 580 405 Z" fill="url(#l6_coreGlow)" stroke="#8ff0ff" stroke-width="1.2" filter="url(#l6_glow)">
+      <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="5s" repeatCount="indefinite" additive="sum" />
+    </path>
+
+    
+    <circle cx="600" cy="405" r="4" fill="#ffffff" filter="url(#l6_glow)">
+      <animate attributeName="r" values="3;6;3" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values=".55;1;.55" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+
+    
+    <g fill="#72e7ff">
+      <circle cx="552" cy="386" r="2">
+        <animate attributeName="cy" values="386;370;386" dur="4s" repeatCount="indefinite" />
+      </circle>
+
+      <circle cx="650" cy="390" r="1.7">
+        <animate attributeName="cy" values="390;372;390" dur="4.7s" repeatCount="indefinite" />
+      </circle>
+
+      <circle cx="570" cy="445" r="1.5">
+        <animate attributeName="cy" values="445;460;445" dur="4.3s" repeatCount="indefinite" />
+      </circle>
+
+      <circle cx="634" cy="450" r="1.8">
+        <animate attributeName="cy" values="450;465;450" dur="5.1s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+  </g>
+
+</g><g id="layer-7"><g id="l7_shadow-tyrant-identity">
+
+    
+    <g id="l7_st-emblem" transform="translate(600 300)">
+
+      <circle r="68" fill="#030914" stroke="#36d9ff" stroke-width="1.5" opacity=".95" />
+
+      <circle r="58" fill="none" stroke="#7c8cff" stroke-width="1" stroke-dasharray="3 8" opacity=".55">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite" />
+      </circle>
+
+      
+      <path d="         M -32 -24         L -12 -48         L 0 -31         L 12 -48         L 32 -24         L 22 24         L 0 43         L -22 24 Z" fill="none" stroke="url(#l7_accent)" stroke-width="2" stroke-linejoin="round" filter="url(#l7_glow)" />
+
+      
+      <text x="0" y="10" text-anchor="middle" fill="url(#l7_title)" font-family="sans-serif" font-size="28" font-weight="800" letter-spacing="3">ST</text>
+
+      <circle r="76" fill="none" stroke="#36d9ff" stroke-width="1" opacity=".18">
+        <animate attributeName="r" values="72;82;72" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values=".10;.28;.10" dur="4s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    
+    <text x="600" y="402" text-anchor="middle" fill="url(#l7_title)" font-family="sans-serif" font-size="46" font-weight="800" letter-spacing="9" opacity="0">
+      SHADOW TYRANT
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;.35;.55" dur="3.5s" fill="freeze" />
+    </text>
+
+    
+    <text x="600" y="432" text-anchor="middle" fill="#72dfff" font-family="monospace" font-size="12" letter-spacing="5" opacity="0">
+      SHADOW DRAGON // FULLSTACK DEVELOPER
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;.5;.7" dur="3.5s" fill="freeze" />
+    </text>
+
+    
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;.65;.8" dur="3.5s" fill="freeze" />
+
+      <line x1="420" y1="458" x2="780" y2="458" stroke="#17435c" />
+
+      <text x="600" y="482" text-anchor="middle" fill="#7e98a8" font-family="monospace" font-size="10" letter-spacing="3">
+        SHADOW CORE // AWAKENED
+      </text>
+
+      <circle cx="432" cy="478" r="3" fill="#61f0b2" filter="url(#l7_glow)">
+        <animate attributeName="opacity" values=".4;1;.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+
+      <text x="768" y="482" text-anchor="end" fill="#61f0b2" font-family="monospace" font-size="10">
+        ONLINE
+      </text>
+    </g>
+
+    
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;.8;1" dur="3.5s" fill="freeze" />
+
+      <rect x="470" y="512" width="260" height="42" rx="5" fill="#061522" stroke="#36d9ff" stroke-width="1" opacity=".9" />
+
+      <text x="600" y="538" text-anchor="middle" fill="#dffaff" font-family="monospace" font-size="12" letter-spacing="3">
+        ENTER SHADOW SYSTEM
+      </text>
+
+      <rect x="470" y="512" width="260" height="42" rx="5" fill="none" stroke="#36d9ff" stroke-width="1" opacity=".15">
+        <animate attributeName="opacity" values=".05;.35;.05" dur="2.4s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+  </g>
+
+</g><desc>Animated Shadow Tyrant identity interface featuring a shadow dragon, shadow aura, glowing eyes, shadow core, and Shadow Tyrant branding.</desc></svg>
